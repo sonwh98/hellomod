@@ -16,4 +16,4 @@
    :verbose true})
 
 (b/build "src" opts)
-(r/repl* (rb/repl-env    :port 3000) opts)
+(r/repl* (rb/repl-env) opts)
