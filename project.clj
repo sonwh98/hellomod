@@ -9,7 +9,7 @@
                                           :optimizations :advanced
                                           :verbose true
                                           :parallel-build true
-                                          :main "foo.core"
+                                          ;;:main "foo.core"
                                           :modules {:foo {:entries #{"foo.core"}
                                                           :output-to "out/foo.js"}
                                                     :bar {:entries #{"bar.core"}
